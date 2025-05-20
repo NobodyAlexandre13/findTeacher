@@ -1,4 +1,4 @@
-import styled from "@emotion/native";
+import styled from "styled-components/native";
 import { themes } from "../../global/themes";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Picker } from "@react-native-picker/picker";

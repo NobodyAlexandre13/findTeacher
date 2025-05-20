@@ -1,4 +1,4 @@
-import styled from '@emotion/native';
+import styled from "styled-components/native";
 import { themes } from '../../global/themes';
 
 export const Container = styled.View`
@@ -10,5 +10,5 @@ export const InputText = styled.TextInput`
     width: 100%;
     opacity: 0.9;
     border-radius: 5px;
-    padding: 16px;
+    padding: 14px;
 `

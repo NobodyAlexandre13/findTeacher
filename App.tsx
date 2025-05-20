@@ -7,12 +7,12 @@ import {
 import Loading from './src/components/Loading';
 import { themes } from './src/global/themes';
 import { View } from 'react-native';
-import { Signin } from './src/screen/Signin';
 import { NavigationContainer } from '@react-navigation/native';
 import { Routes } from './src/routes';
+import { Home } from './src/screen/Home';
 
 export default function App() {
-  const [ fontsLoaded ] = useFonts([
+  const fontsLoaded = useFonts([
     Poppins_400Regular,
     Poppins_500Medium,
     Poppins_700Bold
@@ -28,7 +28,7 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      <Routes />
+      <Home />
     </NavigationContainer>
   );
 }

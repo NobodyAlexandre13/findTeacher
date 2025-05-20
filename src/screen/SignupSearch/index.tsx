@@ -95,7 +95,7 @@ export function SignupSearch() {
 
                 <Select
                     selectedValue={genero}
-                    onValueChange={(itemValue) => setGenero(itemValue as string)}
+                    onValueChange={(itemValue: string) => setGenero(itemValue as string)}
                 >
                     <Picker.Item label="Selecione o seu genero" value="" enabled={false} />
                     <Picker.Item label="Masculino" value="masculino" />
@@ -126,7 +126,7 @@ export function SignupSearch() {
 
                 <Select
                     selectedValue={provincia}
-                    onValueChange={(itemValue) => setProvincia(itemValue as string)} 
+                    onValueChange={(itemValue: string) => setProvincia(itemValue as string)} 
                 >
                     <Picker.Item label="Selecione a sua província" value="" enabled={false} />
                     <Picker.Item label="Luanda" value="Luanda" />

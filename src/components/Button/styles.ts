@@ -1,4 +1,4 @@
-import styled from "@emotion/native";
+import styled from "styled-components/native";
 import { themes } from "../../global/themes";
 
 interface Props{
@@ -13,7 +13,7 @@ export const Container = styled.TouchableOpacity<Props>`
     width: 100%;
     background-color: ${({ colorBtn }: Props) => colorBtn};
     border-radius: 5px;
-    padding: 14px;
+    padding: 12px;
     margin-top: 10px;
     border: ${({ border }: Props) => border};
 `;

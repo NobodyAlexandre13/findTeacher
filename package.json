@@ -9,8 +9,6 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@emotion/native": "^11.11.0",
-    "@emotion/react": "^11.14.0",
     "@expo-google-fonts/poppins": "^0.3.1",
     "@react-native-picker/picker": "2.11.0",
     "@react-navigation/native": "^7.1.8",
@@ -22,15 +20,18 @@
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
     "react-native": "0.79.2",
+    "react-native-gesture-handler": "~2.24.0",
     "react-native-phone-number-input": "^2.1.0",
     "react-native-safe-area-context": "5.4.0",
     "react-native-screens": "~4.10.0",
     "react-native-svg": "15.11.2",
-    "react-native-tag-input": "^0.0.21"
+    "react-native-tag-input": "^0.0.21",
+    "styled-components": "^6.1.18"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~19.0.10",
+    "@types/styled-components-react-native": "^5.2.5",
     "react-native-svg-transformer": "^1.5.1",
     "typescript": "~5.8.3"
   },
