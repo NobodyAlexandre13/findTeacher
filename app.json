@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "keludi",
+    "slug": "keludi-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/keludilogoicon.png",
+    "scheme": "keludiapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#000d50",
+        "foregroundImage": "./assets/images/keludilogoicon.png",
+        "backgroundImage": "./assets/images/keludilogoicon.png",
+        "monochromeImage": "./assets/images/keludilogoicon.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/keludilogoicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/keludilogoicon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#000d50",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
